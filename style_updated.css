@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #00274d; /* Dark navy background for the navbar */
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu li a {
+    color: #ddd; /* Light grey text for links */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+    background-color: #003366; /* Light navy for buttons */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #004080; /* Lighter navy on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #00274d, #003366); /* Navy gradient for hero section */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero span {
+    color: #f5c518; /* Highlight with a yellowish gold */
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    flex: 1 0 21%; /* Responsive cards */
+    max-width: 300px; /* Max width for cards */
+}
+
+.service-icon {
+    height: 50px; /* Adjust icon size as needed */
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background-color: #e7f1ff; /* Light blue background */
+}
+
+/* References Section */
+.references {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.references h2 {
+    margin-bottom: 2rem;
+    color: #00274d; /* Dark navy for headings */
+}
+
+.reference-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reference-logo {
+    width: 150px; /* Adjust the size as needed */
+    margin: 1rem;
+    border-radius: 5px; /* Optional: Add some border radius */
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #004080;
+}
+
+/* Footer */
+footer {
+    background-color: #00274d; /* Dark navy footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
