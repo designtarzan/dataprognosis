@@ -1,0 +1,78 @@
+/* About Section */
+.about {
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    color: #00274d; /* Dark navy for headings */
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+    color: #666; /* Medium grey text */
+}
+
+/* Careers Section */
+.careers {
+    padding: 50px 0;
+}
+
+.careers h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #00274d; /* Dark navy for headings */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #e6f7ff; /* Light blue for contact section */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+    color: #00274d; /* Dark navy for headings */
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #003366; /* Light navy for buttons */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #004080; /* Lighter navy on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #00274d; /* Dark navy for footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
